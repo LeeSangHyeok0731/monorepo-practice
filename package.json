@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "pnpm --filter api",
+    "client": "pnpm --filter client",
+    "admin": "pnpm --filter admin",
+    "shared": "pnpm --filter shared"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
